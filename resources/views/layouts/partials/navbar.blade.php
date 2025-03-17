@@ -5,7 +5,7 @@
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <a class="navbar-brand logo_h d-flex align-items-center" href="/">
-                    <img src="/assets/img/nessgood_logo.png" alt="Logo">
+                    <img src="{{ asset('assets/img/nessgood_logo.png') }}" alt="Logo" class="img-fluid">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
