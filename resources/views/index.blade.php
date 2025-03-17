@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
+<p>{{ asset('assets/css/style.css') }}</p>
 
     <!--================ Start Home Banner Area =================-->
     <section class="home_banner_area">
