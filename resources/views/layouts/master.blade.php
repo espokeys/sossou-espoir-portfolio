@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>🧑‍💻🚀Portfolio---Espoir-SOSSOU</title>
+    <title>🧑‍💻🚀Portfolio-Espoir-SOSSOU</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendors/linericon/style.css') }}" />
