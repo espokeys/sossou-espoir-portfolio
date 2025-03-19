@@ -37,7 +37,7 @@
                         <div class="info_item">
                             <i class="lnr lnr-envelope"></i>
                             <h6><a href="mailto:sossouespoir91@gmail.com">sossouespoir91@gmail.com</a></h6>
-                            <p>Envoyez-nous vos questions à tout moment !</p>
+                            <p>Envoyez-moi vos questions à tout moment !</p>
                         </div>
                     </div>
                 </div>

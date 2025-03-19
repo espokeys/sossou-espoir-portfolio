@@ -6,7 +6,7 @@
                 <div class="footer_top flex-column">
                     <div class="footer_logo">
                         <a href="/">
-                            <img src="{{ asset('assets/img/nessgood_logo.png') }}" alt="" />
+                            <img src="{{ asset('assets/img/nessgood_logo.png') }}" alt="Logo" class="img-fluid" />
                         </a>
                         <h4>Suivez-moi</h4>
                     </div>

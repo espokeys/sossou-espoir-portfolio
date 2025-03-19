@@ -19,7 +19,7 @@
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav justify-content-end">
                         <li class="nav-item active">
-                            <a class="nav-link" href="/">Portfolio</a>
+                            <a class="nav-link text-info" href="/">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#experience">Expériences</a>

@@ -10,12 +10,11 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="banner_content">
-                            <h3 class="text-uppercase">Hell0</h3>
-                            <h1 class="text-uppercase">Je suis Espoir SOSSOU</h1>
+                            <h4 class="" style="font-size: 54px"> Espoir SOSSOU</h4>
                             <h5 class="text-uppercase">Développeur Web Full-Stack</h5>
                             <div class="d-flex align-items-center">
                                 <a class="primary_btn" href="{{ route('contact') }}" aria-label="Engagez-moi">
-                                    <span>Contactez.moi</span>
+                                    <span>Contactez-moi</span>
                                 </a>
                                 <a class="primary_btn tr-bg" href="https://wa.me/90803347?text=Bonjour,%20je%20suis%20un%20client%20ou%20un%20chef%20d'entreprise%20et%20je%20voudrais%20discuter%20de%20mes%projets%20avec%20vous." aria-label="Contact via WhatsApp" target="_blank">
                                     <span>Voir mon CV</span>
@@ -68,90 +67,87 @@
 
     <!--================ End About Us Area =================-->
 
-    <!--================ Srart Brand Area =================-->
-    <section class="brand_area section_gap_bottom">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <div class="d-table hover-effect">
-                                <div class="d-table-cell text-center">
-                                    <img src="{{ asset('assets/img/brands/html.png') }}" width="170px" height="100px" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <div class="d-table hover-effect">
-                                <div class="d-table-cell text-center">
-                                    <img src="{{ asset('assets/img/brands/vue-js.png') }}" width="170px" height="100px" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <div class="d-table hover-effect">
-                                <div class="d-table-cell text-center">
-                                    <img src="{{ asset('assets/img/brands/laravel.png') }}" width="170px" height="100px" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
-                            <div class="d-table hover-effect">
-                                <div class="d-table-cell text-center">
-                                    <img src="{{ asset('assets/img/brands/flutter.png') }}" width="170px" height="100px" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
-                            <div class="d-table hover-effect">
-                                <div class="d-table-cell text-center">
-                                    <img src="{{ asset('assets/img/brands/postman.png') }}" width="170px" height="100px" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 mt-5">
-                            <div class="d-table hover-effect">
-                                <div class="d-table-cell text-center">
-                                    <img src="{{ asset('assets/img/brands/sql.png') }}" width="170px" height="100px" alt="" />
-                                </div>
-                            </div>
+<!--================ Start Brand Area =================-->
+<section class="brand_area section_gap_bottom">
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Section des logos -->
+            <div class="col-lg-6">
+                <div class="row gy-4 gx-3 justify-content-center">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/brands/html.png') }}" class="img-fluid" alt="HTML" />
                         </div>
                     </div>
-
-                </div>
-                <div class="offset-lg-2 col-lg-4 col-md-6">
-                    <div class="client-info">
-                        <div class="d-flex mb-50">
-                            <span class="lage">3</span>
-                            <span class="smll">Années d'expérience</span>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/brands/vue-js.png') }}" class="img-fluid" alt="Vue.js" />
                         </div>
-                        <div class="call-now d-flex">
-                            <div>
-                                <span class="fa fa-phone"></span>
-                            </div>
-                            <div class="ml-15">
-                                <p>Appelez-moi maintenant</p>
-                                <h3>+228 90-80-33-47</h3>
-                            </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/brands/laravel.png') }}" class="img-fluid" alt="Laravel" />
                         </div>
-                        <div class="call-now d-flex">
-                            <div>
-                                <!-- Utilisation de l'icône WhatsApp de FontAwesome -->
-                                <span class="fa fa-whatsapp"></span>
-                            </div>
-                            <div class="ml-15">
-                                <p>Mon WhatsApp</p>
-                                <h3><a href="https://wa.me/+22890803347" target="_blank">+228 90-80-33-47</a></h3>
-                            </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/brands/flutter.png') }}" class="img-fluid" alt="Flutter" />
                         </div>
-
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/brands/postman.png') }}" class="img-fluid" alt="Postman" />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/brands/sql.png') }}" class="img-fluid" alt="SQL" />
+                        </div>
                     </div>
                 </div>
-
             </div>
+
+            <!-- Section Infos Client -->
+            <div class="col-lg-4 col-md-6 text-center text-md-start ml-5">
+                <div class="client-info">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-4">
+                        <span class="lage display-4 fw-bold text-primary">3</span>
+                        <span class="smll ms-3 fs-5">Années d'expérience</span>
+                    </div>
+
+                    <!-- Contact par téléphone -->
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-3">
+                        <div class="icon-box d-flex align-items-center justify-content-center bg-primary text-white rounded-circle p-3" style="width: 50px; height: 50px;">
+                            <span class="fa fa-phone fs-4"></span>
+                        </div>
+                        <div class="ms-3">
+                            <p class="mb-1">Appelez-moi maintenant</p>
+                            <h3 class="fw-bold">+228 90-80-33-47</h3>
+                        </div>
+                    </div>
+
+                    <!-- Contact WhatsApp -->
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                        <div class="icon-box d-flex align-items-center justify-content-center bg-success text-white rounded-circle p-3" style="width: 50px; height: 50px;">
+                            <span class="fa fa-whatsapp fs-4"></span>
+                        </div>
+                        <div class="ms-3">
+                            <p class="mb-1">Mon WhatsApp</p>
+                            <h3 class="fw-bold">
+                                <a href="https://wa.me/+22890803347" target="_blank" class="text-success text-decoration-none">
+                                    +228 90-80-33-47
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
-    <!--================ End Brand Area =================-->
+    </div>
+</section>
+<!--================ End Brand Area =================-->
+
 
     <!--================ Start Features Area =================-->
     <section class="features_area" id="services">
