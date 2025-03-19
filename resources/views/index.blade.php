@@ -16,7 +16,7 @@
                                 <a class="primary_btn" href="{{ route('contact') }}" aria-label="Engagez-moi">
                                     <span>Contactez-moi</span>
                                 </a>
-                                <a class="primary_btn tr-bg" href="https://wa.me/90803347?text=Bonjour,%20je%20suis%20un%20client%20ou%20un%20chef%20d'entreprise%20et%20je%20voudrais%20discuter%20de%20mes%projets%20avec%20vous." aria-label="Contact via WhatsApp" target="_blank">
+                                <a class="primary_btn tr-bg"  href="https://wa.me/90803347?text=Bonjour,%20je%20suis%20un%20client%20ou%20un%20chef%20d%27entreprise%20et%20je%20voudrais%20discuter%20de%20mes%20projets%20avec%20vous."  aria-label="Contact via WhatsApp" target="_blank">
                                     <span>Voir mon CV</span>
                                 </a>
 
@@ -58,7 +58,7 @@
                             formations continues et des projets pratiques, afin de proposer des solutions et
                             de répondre efficacement aux exigences des missions qui me sont confiées.
                         </p>
-                        <a class="primary_btn" href="https://wa.me/90803347?text=Bonjour,%20je%20suis%20un%20client%20ou%20un%20chef%20d'entreprise%20et%20je%20voudrais%20discuter%20de%20mes%projets%20avec%20vous." target="_blank"><span>Télécharger Mon CV</span></a>
+                        <a class="primary_btn"  href="https://wa.me/90803347?text=Bonjour,%20je%20suis%20un%20client%20ou%20un%20chef%20d%27entreprise%20et%20je%20voudrais%20discuter%20de%20mes%20projets%20avec%20vous."  target="_blank"><span>Télécharger Mon CV</span></a>
                     </div>
                 </div>
             </div>
